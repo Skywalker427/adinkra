@@ -2,7 +2,7 @@ module.exports = [
     {
         name:"Adinkrahene", 
         meaning:"Chief/King of the Adinkra Symbols", 
-        synopsis:`This symbol is said to have played an inspiring role in the designing of other symbols. it signifies the importance of playing a leadership role.` 
+        synopsis:`This symbol is said to have played an inspiring role in the designing of other symbols. it signifies the importance of playing a leadership role.`, 
         image:"adinkrahene.gif"
     },
     {
@@ -73,7 +73,7 @@ module.exports = [
     },
     {
         name:"Bi Nka Bi", 
-        meaning:"Let no one bit the other", 
+        meaning:"Let no one bite the other", 
         synopsis:`symbol of peace and harmony
         This symbol cautions against provocation and strife. The image is based on two fish biting each other tails.`,
         image:"bi-nka-bi.gif"
