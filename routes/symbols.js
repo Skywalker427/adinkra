@@ -14,6 +14,7 @@ router.get("/", (req,res,next)=>{
 
     let reponseSymbols = [];
 
+
     if(symbolName){
         symbols.forEach((symbol)=>{
             if(symbol.name.toLowerCase().includes(symbolName.toLowerCase())){
@@ -28,14 +29,34 @@ router.get("/", (req,res,next)=>{
             }
         })
     }
-
-    if((symbolMeaning || symbolName) && reponseSymbols){
-        res.json(reponseSymbols)
+    if(symbolSynopsis){
+        symbols.forEach((symbol)=>{
+            if(symbol.synopsis.toLowerCase().includes(symbolSynopsis.toLowerCase())){
+                reponseSymbols.push(symbol)
+            }
+        })
     }
 
+    if(reponseSymbols.length>0){
+        res.status(200)
+        .set({"Content-Type":"application/json"})
+        .json(reponseSymbols)
+    }
+    else{
+        if(symbolMeaning || symbolName || symbolSynopsis){
+            res.status(404)
+            .json({"error":"No symbol matched your query"})
+        }
+        else{res.status(200)
+            .set({"Content-Type":"application/json"})
+            .json(symbols);
+        }
+    }
 
-    res.status(200)
-    .send(req.query.name);
+    
+
+
+
 })
 
 module.exports = router;
