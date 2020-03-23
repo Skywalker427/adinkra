@@ -24,7 +24,7 @@ Photo by [Nate Greno](https://unsplash.com/@nategreno?utm_source=unsplash&utm_me
 
 #### Query Parameters
 
-> The `/symbols` route accepts the query parameters name, meaning and synopsis for returning specific symbols that match those searches.
+> The `/symbols` route accepts the query parameters *_name_*, *_meaning_* and *_synopsis_* for returning specific symbols that match those searches.
 
 > To get all symbols with '*Nyame*' in the name, you would send `/symbols?name=Nyame`
 
