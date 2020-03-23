@@ -9,6 +9,8 @@ Photo by [Nate Greno](https://unsplash.com/@nategreno?utm_source=unsplash&utm_me
 
 > The symbols have a decorative function but also represent objects that encapsulate evocative messages that convey traditional wisdom, > aspects of life or the environment.
 
+---------------------------------------------------------------------------------------
+
 ## The API
 
 > Check it out live [here](https://adinkra.herokuapp.com)
