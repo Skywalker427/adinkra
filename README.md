@@ -5,6 +5,8 @@ The symbols have a decorative function but also represent objects that encapsula
 
 ## The API
 
+> Check it out live [here](https://adinkra.herokuapp.com)
+
 ### Endpoints
 
 - GET /
