@@ -1,3 +1,4 @@
+![Image](https://adinkra.herokuapp.com/images/adinkra-sm.jpg)	
 # Adinkra
 > Adinkra are symbols that represent concepts or aphorisms. Adinkra are used extensively in fabrics and pottery among the Ashantis of Ashanti Kingdom and the Baoules who historically migrated to Ghana.
 
