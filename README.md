@@ -1,6 +1,6 @@
 # Adinkra
 
-![Image](https://adinkra.herokuapp.com/images/adinkra-sm.jpg)	
+![Image](https://raw.githubusercontent.com/Skywalker427/adinkra/master/public/images/adinkra-sm.jpg)	
 
 Photo by [Nate Greno](https://unsplash.com/@nategreno?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/adinkra?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
 
