@@ -2,6 +2,17 @@ const express = require("express");
 const router = express.Router();
 let symbols = require("../symbols/symbols");
 
+let setImageURLs = (symboldata)=>{
+    let processedData;
+    processedData = symboldata.map((currentSymbol)=>{
+        return {name:currentSymbol.name,
+            meaning: currentSymbol.meaning,
+            synopsis: currentSymbol.synopsis,
+            image: `https://adinkra.herokuapp.com/images/${currentSymbol.image}`}
+    })
+
+    return processedData;
+}
 
 
 
@@ -38,9 +49,11 @@ router.get("/", (req,res,next)=>{
     }
 
     if(reponseSymbols.length>0){
+
+        //console.log(setImageURLs(reponseSymbols));
         res.status(200)
         .set({"Content-Type":"application/json"})
-        .json(reponseSymbols)
+        .json(setImageURLs(reponseSymbols))
     }
     else{
         if(symbolMeaning || symbolName || symbolSynopsis){
@@ -49,7 +62,7 @@ router.get("/", (req,res,next)=>{
         }
         else{res.status(200)
             .set({"Content-Type":"application/json"})
-            .json(symbols);
+            .json(setImageURLs(symbols));
         }
     }
 
