@@ -328,10 +328,10 @@ module.exports = [
         image:"nyame-nti.gif"
     },
     {
-        name:"Nyame Ye Hene", 
+        name:"Nyame Ye OHene", 
         meaning:"God is King", 
         synopsis:`Symbol of the supremacy of God`,
-        image:"nyame-ye-hene.gif"
+        image:"nyame-ye-ohene.gif"
     },
     {
         name:"Nyansapo", 
