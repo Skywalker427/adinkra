@@ -35,11 +35,11 @@ Photo by [Nate Greno](https://unsplash.com/@nategreno?utm_source=unsplash&utm_me
 > `/symbols?name=Nyame&meaning=heavens&synopsis=courage` will return all symbols than contain '*Nyame*' in the name or 'heaven' in the meaning or '*courage*' in the synopsis.
 
 ## Example Queries
->> **GET** https://www.adinkra.herokuapp.com/symbols?name=Nyame&meaning=heavens&synopsis=courage
+>> **GET** https://adinkra.herokuapp.com/symbols?name=Nyame&meaning=heavens&synopsis=courage
 
->> **GET** https://www.adinkra.herokuapp.com/symbols?name=Nyame
+>> **GET** https://adinkra.herokuapp.com/symbols?name=Nyame
 
->> **GET** https://www.adinkra.herokuapp.com/symbols?meaning=star
+>> **GET** https://adinkra.herokuapp.com/symbols?meaning=star
 
 
 
