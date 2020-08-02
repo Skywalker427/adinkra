@@ -42,6 +42,8 @@ Photo by [Nate Greno](https://unsplash.com/@nategreno?utm_source=unsplash&utm_me
 >> **GET** https://adinkra.herokuapp.com/symbols?meaning=star
 
 
+> ![Get request](./postman.jpg?raw=true "Postman sample")
+
 
 ## To Contribute
 
