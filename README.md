@@ -22,16 +22,16 @@ Photo by [Nate Greno](https://unsplash.com/@nategreno?utm_source=unsplash&utm_me
 - GET `/`
 - GET `/symbols`
 
-#### Query Parameters
+#### Query String Parameters
 
-> The `/symbols` route accepts the query parameters `name`, `meaning` and `synopsis` for returning specific symbols that match those searches.
+> The `/symbols` route accepts the query string parameters `name`, `meaning` and `synopsis` for returning specific symbols that match those searches.
 
 > To get all symbols with '*Nyame*' in the name, you would send `/symbols?name=Nyame`
 
 > To get all symbols with 'star' in the meaning you would send `/symbols?meaning=star`
 > Same for '*star*' in the synopsis if you follow my drift.
 
-> You can also combine query params. 
+> You can also combine query string params. 
 > `/symbols?name=Nyame&meaning=heavens&synopsis=courage` will return all symbols than contain '*Nyame*' in the name or 'heaven' in the meaning or '*courage*' in the synopsis.
 
 ## Example Queries
